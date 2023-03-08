@@ -8,6 +8,7 @@ import {
   lifestyle1,
   lifestyle2,
   lifestyle3,
+  email,
   facebook,
   instagram,
   linkedin,
@@ -44,6 +45,12 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
+    icon: email,
+    title: "Mail",
+    content: "Me contacter via Mail.        (calebndunge243@gmail.com )",
+  },
+  {
+    id: "feature-1",
     icon: linkedin,
     title: "Linkedin",
     content: "Me contacter via Linkedin.     (caleb ndunge)",
@@ -59,7 +66,6 @@ export const features = [
     icon: twitter,
     title: "Twitter",
     content: "Me contacter via twitter.       (@cnfour04)",
-    link: "www.google.com",
   },
   {
     id: "feature-3",

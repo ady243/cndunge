@@ -25,6 +25,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import sport1 from "./sport1.png";
 import sport2 from "./sport2.png";
+import email from "./email.svg";
 import sport3 from "./sport3.png";
 import lifestyle1 from "./lifestyle1.png";
 import lifestyle2 from "./lifestyle2.png";
@@ -44,6 +45,7 @@ export {
   lifestyle1,
   lifestyle2,
   lifestyle3,
+  email,
   card,
   coinbase,
   dropbox,
