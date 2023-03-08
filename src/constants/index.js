@@ -47,31 +47,31 @@ export const features = [
     id: "feature-1",
     icon: email,
     title: "Mail",
-    content: "Me contacter via Mail.        (calebndunge243@gmail.com )",
+    content: "Me contacter via Mail.         cndunge27@gmail.com",
   },
   {
     id: "feature-1",
     icon: linkedin,
     title: "Linkedin",
-    content: "Me contacter via Linkedin.     (caleb ndunge)",
+    content: "Me contacter via Linkedin.      caleb ndunge",
   },
   {
     id: "feature-2",
     icon: instagram,
     title: "Instagram",
-    content: "Me contacter via instagram.     (@cnfour04)",
+    content: "Me contacter via instagram.      @cnfour04",
   },
   {
     id: "feature-3",
     icon: twitter,
     title: "Twitter",
-    content: "Me contacter via twitter.       (@cnfour04)",
+    content: "Me contacter via twitter.       @cnfour04",
   },
   {
     id: "feature-3",
     icon: snapchat,
     title: "Snapchat",
-    content: "Me contacter via twitter.       (caleb92x)",
+    content: "Me contacter via twitter.       caleb92x",
   },
 ];
 
