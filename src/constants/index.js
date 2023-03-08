@@ -66,6 +66,7 @@ export const features = [
     icon: twitter,
     title: "Twitter",
     content: "Me contacter via twitter.       @cnfour04",
+    link: "www.google.com",
   },
   {
     id: "feature-3",
