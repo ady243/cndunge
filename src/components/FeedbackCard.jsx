@@ -1,39 +1,28 @@
-import { cnfour } from "../assets";
+import { quotes } from "../assets";
+import "./lifestyle.css";
 
-const FeedbackCard = () => (
+const FeedbackCard = ({ content, name, title, img }) => (
   <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-    {/* <img
-      src={cnfour}
-      alt="double_quotes"
-      className="w-[42.6px] h-[27.6px] object-contain"
-      style={{ borderRadius: "40px" }}
-    /> */}
-    <p className="font-poppins font-normal   my-10">
-      <img src={cnfour} alt="card" style={{ height: "100%" }} />
-    </p>
+    <img
+      src={img}
+      // alt="double_quotes"
+      alt={name}
+      className="life"
+    />
     <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">
-      <img
-        src="https://zupimages.net/up/23/05/8vez.png"
-        alt="card"
-        style={{ height: "100%", width: "100%" }}
-      />
+      {/* {content} */}
     </p>
 
     <div className="flex flex-row">
-      <img
-        src={cnfour}
-        // alt={name}
-        className="w-[48px] h-[48px] rounded-full"
-        style={{ borderRadius: "20px" }}
-      />
-      {/* <div className="flex flex-col ml-4">
+      <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />
+      <div className="flex flex-col ml-4">
         <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-          {name}
+          {/* {name} */}
         </h4>
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
           {title}
         </p>
-      </div> */}
+      </div>
     </div>
   </div>
 );

@@ -2,6 +2,12 @@ import {
   people01,
   people02,
   people03,
+  sport1,
+  sport2,
+  sport3,
+  lifestyle1,
+  lifestyle2,
+  lifestyle3,
   facebook,
   instagram,
   linkedin,
@@ -69,25 +75,57 @@ export const feedback = [
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    title: "CNFOUR",
+    img: lifestyle1,
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    title: "CNFOUR",
+    img: sport1,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Steve Mark",
+    title: "CNFOUR",
+    img: lifestyle2,
   },
+  {
+    id: "feedback-4",
+    content:
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Steve Mark",
+    title: "CNFOUR",
+    img: sport2,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Steve Mark",
+    title: "CNFOUR",
+    img: lifestyle3,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Steve Mark",
+    title: "CNFOUR",
+    img: sport3,
+  },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Kenn Gallagher",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [

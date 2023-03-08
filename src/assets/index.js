@@ -23,6 +23,13 @@ import snapchat from "./snapchat.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
+import sport1 from "./sport1.png";
+import sport2 from "./sport2.png";
+import sport3 from "./sport3.png";
+import lifestyle1 from "./lifestyle1.png";
+import lifestyle2 from "./lifestyle2.png";
+import lifestyle3 from "./lifestyle3.png";
+
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 
@@ -31,6 +38,12 @@ export {
   cnfour,
   bill,
   binance,
+  sport1,
+  sport2,
+  sport3,
+  lifestyle1,
+  lifestyle2,
+  lifestyle3,
   card,
   coinbase,
   dropbox,
